@@ -73,6 +73,15 @@ Exercise 4:
 */
 
 
+let sumArray = function(nums) {
+  let total = 0
+
+  nums.forEach(num => {
+    total += num
+  })
+
+  return total
+}
 
 console.log("Exercise 4 Result:\n", sumArray([2, 5, 15, 20]))
 
@@ -82,6 +91,15 @@ Exercise 5:
 */
 
 
+function multiplyArray(nums) {
+  let product = 1
+
+  nums.forEach(num => {
+    product *= num
+  }) 
+
+  return product
+}
 
 console.log("Exercise 5 Result:\n", multiplyArray([2, 6, 12]))
 
